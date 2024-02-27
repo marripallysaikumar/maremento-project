@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tabs {
+    display: flex;
+
+
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.tabs-button {
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+}
+
+.product-image {
+    height: 190px;
+    width: 220px;
+}
+
+.add-to-cart-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Roboto";
+}
+
+
+
+button {
+    cursor: pointer;
+}
+
+
+
+.styling:hover {
+    background-color: black;
+    border-width: 0px;
+    color: white;
+}
